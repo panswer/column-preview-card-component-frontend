@@ -1,0 +1,5 @@
+.title {
+    font-family: 'BigShoulderDisplay';
+    text-transform: uppercase;
+    color: var(--neutral-color-very-light-gray);
+}

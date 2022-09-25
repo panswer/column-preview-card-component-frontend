@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 
+    Basic styles
+*/
+:root {
+  /* 
+      Colors
+  */
+  /* Primary */
+  --primary-color-bright-orange: hsl(31, 77%, 52%);
+  --primary-color-dark-cyan: hsl(184, 100%, 22%);
+  --primary-color-very-dark-cyan: hsl(179, 100%, 13%);
+  /* Neutral */
+  --neutral-color-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --neutral-color-very-light-gray: hsl(0, 0%, 95%);
+  /* 
+      typography
+  */
+  --font-size: 15px;
+  --font-weight-1: 400;
+  --font-weight-2: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'LexendDeca';
+  src: url('./assets/fonts/LexendDeca-VariableFont_wght.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'BigShoulderDisplay';
+  src: url('./assets/fonts/BigShouldersDisplay-VariableFont_wght.ttf');
 }
 
-.App-link {
-  color: #61dafb;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-size: var(--font-size);
+  background-color: var(--neutral-color-very-light-gray);
+  font-family: 'LexendDeca';
+  font-weight: var(--font-weight-1);
 }

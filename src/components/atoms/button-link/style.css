@@ -1,0 +1,18 @@
+.btn-link,
+.btn-link:link {
+    background-color: var(--neutral-color-very-light-gray);
+    text-decoration: none;
+    padding: .7rem;
+    border-radius: 25px;
+    text-transform: capitalize;
+    width: 6.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.btn-link:active,
+.btn-link:link:active {
+    background-color: transparent;
+    color: var(--neutral-color-very-light-gray) !important;
+    border-color: var(--neutral-color-very-light-gray);
+}

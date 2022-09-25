@@ -1,0 +1,15 @@
+.card-container {
+    width: 325px;
+    box-sizing: border-box;
+    padding: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-container{
+        height: 415px;
+    }
+}
